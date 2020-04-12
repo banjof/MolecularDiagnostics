@@ -742,6 +742,13 @@ width: 100%;
   margin-bottom: 0;
   font-size: 57px;
   font-weight: 700;
+  text-align: center;
+}
+
+.main-banner-content {
+
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .main-banner-content p {
@@ -750,7 +757,8 @@ width: 100%;
 }
 
 .main-banner-content .btn {
-  margin-top: 20px;
+  margin-top: 30px;
+  text-align: center;
 }
 
 .main-banner-content span {
@@ -760,7 +768,7 @@ width: 100%;
   font-weight: 600;
   padding: 9px 30px;
   border-radius: 30px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .banner-image {
