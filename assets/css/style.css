@@ -1278,7 +1278,7 @@ About Area CSS
 }
 
 .about-our-company-inner {
-  margin-top: 120px;
+  /* margin-top: 80px; */
   z-index: 1;
   position: relative;
   background-color: #ffffff;
@@ -1739,7 +1739,7 @@ Services Details Area CSS
 .services-sidebar .services-list {
   -webkit-box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
           box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
-  background-color: #ffffff;
+  background-color: #f8f9ff;
   padding: 20px;
   margin-bottom: 20px;
 }
@@ -1757,8 +1757,8 @@ Services Details Area CSS
 .services-sidebar .services-list ul li a {
   font-weight: 500;
   padding: 10px 12px;
-  background-color: #d0eedd;
-  color: #22b663;
+  background-color: #ffffff;
+  color: #164888;
   position: relative;
 }
 
@@ -1771,30 +1771,30 @@ Services Details Area CSS
 }
 
 .services-sidebar .services-list ul li a:hover, .services-sidebar .services-list ul li a.active {
-  background-color: #22b663;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #84c341;
   -webkit-box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
           box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
 }
 
 .services-sidebar .services-list ul li:nth-child(2) a, .services-sidebar .services-list ul li:nth-child(4) a, .services-sidebar .services-list ul li:nth-child(7) a {
   color: #164888;
-  background-color: #fddcd1;
+  background-color: #ffffff;      
 }
 
 .services-sidebar .services-list ul li:nth-child(2) a:hover, .services-sidebar .services-list ul li:nth-child(2) a.active, .services-sidebar .services-list ul li:nth-child(4) a:hover, .services-sidebar .services-list ul li:nth-child(4) a.active, .services-sidebar .services-list ul li:nth-child(7) a:hover, .services-sidebar .services-list ul li:nth-child(7) a.active {
-  color: #ffffff;
-  background-color: #164888;
+  color: #84c341;
+  background-color: #ffffff;
 }
 
 .services-sidebar .services-list ul li:nth-child(3) a, .services-sidebar .services-list ul li:nth-child(5) a {
-  color: #f59f00;
-  background-color: #fbe9ca;
+  color: #164888;
+  background-color: #ffffff;
 }
 
 .services-sidebar .services-list ul li:nth-child(3) a:hover, .services-sidebar .services-list ul li:nth-child(3) a.active, .services-sidebar .services-list ul li:nth-child(5) a:hover, .services-sidebar .services-list ul li:nth-child(5) a.active {
-  color: #ffffff;
-  background-color: #f59f00;
+  background-color: #ffffff;
+  color: #84c341;
 }
 
 .services-sidebar .services-download-list ul {
@@ -1816,7 +1816,7 @@ Services Details Area CSS
 }
 
 .services-sidebar .services-download-list ul li a:hover {
-  background-color: #22b663;
+  background-color: #164888;
   color: #ffffff;
 }
 
@@ -2002,8 +2002,15 @@ Our Progress Area CSS
 
 .single-progress-box {
   text-align: center;
+  display: inline-block;
   margin-bottom: 30px;
 }
+
+/* .single-progress-box .progress-circle{
+  display: inline-block;
+  background-color: black;
+  width: ;
+} */
 
 .single-progress-box .progress-bar {
   background-color: transparent;
