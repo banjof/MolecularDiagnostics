@@ -71,6 +71,18 @@ body {
   /* background-color: #fff7f4; */
 }
 
+.bg-e6ebff{
+    background-color: #e6ebff;
+}
+
+.bg-7886bd{
+  background-color: #7886bd;
+}
+
+.bg-164888{
+  background-color: #164888;
+}
+
 p {
   margin-bottom: 15px;
   color: #666666;
@@ -1024,7 +1036,7 @@ Boxes Area CSS
   text-align: center;
   position: relative;
   z-index: 1;
-  background-color: #164888;
+  /* background-color: #164888; */
   padding: 25px;
   overflow: hidden;
   -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.02);
@@ -1280,7 +1292,7 @@ About Area CSS
   height: 93%;
   content: '';
   position: absolute;
-  background: #fff7f4;
+  background: #f8f9ff;
 }
 
 .about-inner-company-content h2 {
