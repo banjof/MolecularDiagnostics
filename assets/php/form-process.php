@@ -22,7 +22,6 @@ $phoneNumber = $_POST['phone_number'];
 $message = $_POST['message'];
 
 
-
 try {
     //Server settings
     $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
