@@ -8,6 +8,7 @@ use PHPMailer\PHPMailer\Exception;
 // Load Composer's autoloader
 // require 'vendor/autoload.php';
 
+
 //Required phpmailer files
 require '../PHPMailer/src/Exception.php';
 require '../PHPMailer/src/PHPMailer.php';
