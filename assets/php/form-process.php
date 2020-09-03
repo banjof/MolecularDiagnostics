@@ -10,9 +10,13 @@ use PHPMailer\PHPMailer\Exception;
 
 
 //Required phpmailer files
-require 'PHPMailer/src/Exception.php';
-require 'PHPMailer/src/PHPMailer.php';
-require 'PHPMailer/src/SMTP.php';
+require '../PHPMailer/src/Exception.php';
+require '../PHPMailer/src/PHPMailer.php';
+require '../PHPMailer/src/SMTP.php';
+
+// require $_SERVER['DOCUMENT_ROOT'] . '/PHPMailer/src/Exception.php';
+// require $_SERVER['DOCUMENT_ROOT'].'/PHPMailer/src/PHPMailer.php';
+// require $_SERVER['DOCUMENT_ROOT'].'/PHPMailer/src/SMTP.php';
 
 // Instantiation and passing `true` enables exceptions
 $mail = new PHPMailer(true);
