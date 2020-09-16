@@ -3419,21 +3419,21 @@ CTA Area CSS
 }
 
 .cta-content .btn-primary {
-  color: #164888;
+  color: #84c341;
   background-color: #ffffff;
   border-color: #ffffff;
 }
 
 .cta-content .btn-primary:not(:disabled):not(.disabled).active, .cta-content .btn-primary:not(:disabled):not(.disabled):active, .show > .cta-content .btn-primary.dropdown-toggle {
   color: #ffffff;
-  border-color: #22b663;
-  background-color: #22b663;
+  border-color: #84c341;
+  background-color: #84c341;
 }
 
 .cta-content .btn-primary:hover, .cta-content .btn-primary:focus {
   color: #ffffff;
-  border-color: #22b663;
-  background-color: #22b663;
+  border-color: #84c341;
+  background-color: #84c341;
 }
 
 /*================================================
